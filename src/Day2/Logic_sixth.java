@@ -1,4 +1,4 @@
-package com.example.hello.Training.Day_2;
+package Day2;
 
 import java.util.Scanner;
 
