@@ -8,7 +8,7 @@ public class Main {
         BufferedWriter writer = new BufferedWriter(new FileWriter("src/Day11/reversecontent/reversed.txt"));
 
         try {
-            StringBuilder sb = new StringBuilder("");
+            StringBuilder sb = new StringBuilder();
             String line;
             while((line = br.readLine()) != null) {
                 sb.append(line);

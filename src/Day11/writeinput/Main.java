@@ -11,7 +11,7 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the content to be written: ");
         String content = sc.nextLine();
-        BufferedWriter writer = new BufferedWriter(new FileWriter("src/Day11/writeinput/destination.txtnm,"));
+        BufferedWriter writer = new BufferedWriter(new FileWriter("src/Day11/writeinput/destination.txt,"));
         try {
             writer.write(content);
             System.out.println("Content written successfully");

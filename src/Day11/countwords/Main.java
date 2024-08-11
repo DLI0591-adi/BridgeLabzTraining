@@ -8,7 +8,7 @@ import java.io.IOException;
 public class Main {
     public static void main(String[] args) throws IOException {
         int counter = 0;
-        FileReader reader = new FileReader("src/Day11/countwords/text_file.txt");
+        BufferedReader reader = new BufferedReader(new FileReader("src/Day11/countwords/text_file.txt"));
         try {
             if(reader.read() == -1) {
                 System.out.println("The text file is empty");
