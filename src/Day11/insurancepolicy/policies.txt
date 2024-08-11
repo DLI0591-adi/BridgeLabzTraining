@@ -1,0 +1,9 @@
+20,Ashish,20000
+21,Saket,10000
+22,Shivam,2000
+23,Singh,3000
+24,Aditya,20000
+25,Prathamesh,20000
+26,Mridul,7021
+27,Annand,4112
+34,Raghuvira,2032
