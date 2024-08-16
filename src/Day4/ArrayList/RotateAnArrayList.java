@@ -9,6 +9,7 @@ public class RotateAnArrayList {
     static void rev(ArrayList<Integer> arr, int k){
         int n = arr.size();
         k = k % n;
+        System.out.println(k);
         Collections.reverse(arr);
         Collections.reverse(arr.subList(0, k));
         Collections.reverse(arr.subList(k, n));

@@ -15,6 +15,5 @@ public class five {
 
         strings.stream().filter(combine).forEach(System.out::println);
 
-
     }
 }
